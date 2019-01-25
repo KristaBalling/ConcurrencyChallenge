@@ -24,6 +24,7 @@ public class Main {
             public void run() {
                 account.deposit(300);
                 account.withdraw(50.00);
+                System.out.println("Transaction completed for account " + account.getAccountNumber());
             }
         });
 
@@ -32,6 +33,7 @@ public class Main {
             public void run() {
                 account.deposit(203.75);
                 account.withdraw(100.00);
+                System.out.println("Transaction completed for account " + account.getAccountNumber());
             }
         });
 
