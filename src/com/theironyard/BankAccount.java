@@ -1,13 +1,19 @@
 package com.theironyard;
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class BankAccount {
 
     private double balance;
     private String accountNumber;
 
+    private Lock lock;
+
     public BankAccount(String accountNumber, double initialBalance) {
         this.accountNumber = accountNumber;
         this.balance = initialBalance;
+        this.lock = new ReentrantLock();
     }
 
     //one way to make thread safe
@@ -25,14 +31,21 @@ public class BankAccount {
     //over-synchronization can have a noticeably negative impact on performance
 
     public void deposit(double amount) {
-        synchronized (this) {
+        lock.lock();
+        try {
             balance += amount;
+        } finally {
+            lock.unlock();
         }
+
     }
 
     public void withdraw(double amount) {
-        synchronized (this) {
+        lock.lock();
+        try {
             balance -= amount;
+        } finally {
+            lock.unlock();
         }
     }
 
