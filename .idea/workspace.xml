@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8532e7b-e6a3-41f7-9ff4-701e802dc150" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/theironyard/Challenge7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/theironyard/Challenge8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConcurrencyChallenges/com/theironyard/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConcurrencyChallenges/com/theironyard/BankAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/theironyard/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/theironyard/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/theironyard/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/theironyard/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,19 +22,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2470" />
+          <entry key="JAVA" value="2496" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/theironyard/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="574">
@@ -49,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/theironyard/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="21" />
+            <state relative-caret-position="1675">
+              <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1747#1748#0" expanded="true" />
@@ -65,10 +62,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/theironyard/Challenge7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1775">
-              <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+            <state relative-caret-position="65">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/theironyard/Challenge8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#1564#1565#0" expanded="true" />
+                <element signature="e#1606#1607#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +106,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/theironyard/BankAccount.java" />
-        <option value="$PROJECT_DIR$/src/com/theironyard/Challenge7.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/theironyard/Challenge7.java" />
+        <option value="$PROJECT_DIR$/src/com/theironyard/Challenge8.java" />
       </list>
     </option>
   </component>
@@ -134,7 +151,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548441573746" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548442023883" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -151,9 +168,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Challenge7">
+  <component name="RunManager" selected="Application.Challenge8">
     <configuration name="Challenge7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.theironyard.Challenge7" />
+      <module name="ConcurrencyChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.theironyard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.theironyard.Challenge8" />
       <module name="ConcurrencyChallenges" />
       <extension name="coverage">
         <pattern>
@@ -177,9 +207,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Challenge7" />
+      <item itemvalue="Application.Challenge8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Challenge8" />
         <item itemvalue="Application.Challenge7" />
         <item itemvalue="Application.Main" />
       </list>
@@ -210,12 +242,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.31344903" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.31344903" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4097035" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4088937" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,10 +266,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/theironyard/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="35" column="100" selection-start-line="35" selection-start-column="100" selection-end-line="35" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/theironyard/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="21" />
+        <state relative-caret-position="1675">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1747#1748#0" expanded="true" />
@@ -250,18 +289,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/theironyard/Challenge7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+        <state relative-caret-position="65">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/theironyard/Challenge8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="35" column="100" selection-start-line="35" selection-start-column="100" selection-end-line="35" selection-end-column="100" />
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
